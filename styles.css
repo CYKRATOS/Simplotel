@@ -4,6 +4,7 @@
     --nav-text: #FFFF00;
     --card-orange: #FF7F50;
     --inner-gray: #808080;
+    --font-main: 'Times New Roman', Times, serif;
     --text-white: #FFFFFF;
     --nav-font-size: 1.2rem;
     --spacing-md: 1.5rem;
@@ -61,13 +62,11 @@ body {
 }
 
 .main-content {
-    flex: 1;
-    padding: 2rem;
-    max-width: 1400px;
-    margin: 0 auto;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    width: 100%;
 }
 
 .content-grid {
@@ -187,7 +186,7 @@ p{
     }
 }
 
-.parent {
+/* .parent {
     background-color: red;
     position: relative;
     
@@ -196,7 +195,6 @@ p{
     background-color: orange;
     position: absolute;
     left: 50% ;
-    top: 50% ; 
-    margin:  auto;    
+    top: 50% ;
     transform: translate(-50%, -50%);
-}
+} */
